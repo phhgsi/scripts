@@ -11,7 +11,8 @@ echo
 rm -rf .repo/local_manifests
 rm -rf device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
-#rm -rf vendor/oplus/camera
+rm -rf vendor/oneplus/camera
+rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/camera
 #Clone trees local manifest
 git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
