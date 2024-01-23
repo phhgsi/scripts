@@ -15,9 +15,9 @@ rm -rf .repo/local_manifests
 rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/camera
 #Clone trees local manifest
-#git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
-#repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
-git clone https://github.com/afterlifeoscar/oplus_cam.git vendor/oplus/camera
+git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
+git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
 chmod u+x scripts/build.sh
