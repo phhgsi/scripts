@@ -8,3 +8,6 @@ crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scri
 ```bash
 crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scripts.git && chmod u+x scripts/sync.sh && ./scripts/sync.sh "
 ```
+```bash
+crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scripts.git && chmod u+x scripts/vans.sh && ./scripts/vans.sh "
+```
