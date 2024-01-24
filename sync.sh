@@ -9,6 +9,9 @@ echo "--------------------------------------"
 echo
 #Remove local manifest
 rm -rf .repo/local_manifests
+rm -rf kernel/oneplus/ivan
+rm -rf device/oneplus/ivan
+rm -rf vendor/oneplus/ivan
 #rm -rf device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
 #rm -rf vendor/oneplus/camera
