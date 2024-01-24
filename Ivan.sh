@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf device/oneplus/ivan
 git clone https://github.com/phhgsi/device_oneplus_ivan.git device/oneplus/ivan
 rm -rf hardware/oplus/hidl/touch
 #envsetup
