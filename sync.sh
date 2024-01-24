@@ -13,11 +13,13 @@ rm -rf .repo/local_manifests
 #rm -rf device/oneplus/ivan
 #rm -rf vendor/oneplus/ivan
 #rm -rf device/oneplus/oscar
+rm -rf packages/apps/Settings
 rm -rf device/oneplus/sm6375-common
 #rm -rf vendor/oneplus/camera
 #rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/camera
 #Clone trees local manifest
+git clone https://github.com/DerpFest-AOSP/packages_apps_Settings.git packages/apps/Settings
 git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
 #git clone https://gitlab.com/Andrea055/vendor-oneplus-camera.git vendor/oneplus/camera
