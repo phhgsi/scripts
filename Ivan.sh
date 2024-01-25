@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf hardware/oplus/sepolicy/qti/vendor/um
 rm -rf kernel/oneplus/ivan
 rm -rf device/oneplus/ivan
 rm -rf vendor/oneplus/ivan
