@@ -10,20 +10,20 @@ echo
 #Remove local manifest
 rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
-rm -rf device/oneplus/sm6375-common
+#rm -rf device/oneplus/sm6375-common
 #rm -rf kernel/oneplus/sm6375
-rm -rf vendor/oneplus/camera
-rm -rf vendor/oplus/camera
+#rm -rf vendor/oneplus/camera
+#rm -rf vendor/oplus/camera
 #Clone trees local manifest
-git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
+#git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
+#repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
 rm -rf frameworks/base
 rm -rf frameworks/av
 rm -rf frameworks/native
 git clone https://github.com/phhgsi/frameworks_base.git frameworks/base
 git clone https://github.com/phhgsi/frameworks_av.git frameworks/av
 git clone https://github.com/phhgsi/frameworks_native.git frameworks/native
-git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git vendor/oplus/camera
+#git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
 chmod u+x scripts/build.sh
