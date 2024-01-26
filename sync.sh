@@ -11,7 +11,7 @@ echo
 rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
 #rm -rf device/oneplus/sm6375-common
-#rm -rf kernel/oneplus/sm6375
+rm -rf kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/camera
 rm -rf vendor/oplus/camera
 #Clone trees local manifest
