@@ -1,6 +1,7 @@
 #!/bin/bash
 #envsetup
 source build/envsetup.sh
+make Clean
 # lunch command 
 lunch derp_oscar-user
 export TZ=Asia/Dhaka
