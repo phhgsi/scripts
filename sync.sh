@@ -9,17 +9,21 @@ echo "--------------------------------------"
 echo
 #Remove local manifest
 rm -rf .repo/local_manifests
-#rm -rf device/oneplus/oscar
-#rm -rf device/oneplus/sm6375-common
-#rm -rf vendor/derp
-#git clone https://github.com/phhgsi/vendor_derp.git vendor/derp
-#rm -rf kernel/oneplus/sm6375
-#git clone https://github.com/phhgsi/android_kernel_oneplus_sm6375.git kernel/oneplus/sm6375
+rm -rf device/oneplus/oscar
+git clone https://github.com/phhgsi/device_oneplus_oscar.git device/oneplus/oscar
+rm -rf device/oneplus/sm6375-common
+git clone https://github.com/phhgsi/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
+rm -rf kernel/oneplus/sm6375
+git clone https://github.com/phhgsi/android_kernel_oneplus_sm6375.git -b holi-12 kernel/oneplus/sm6375
+rm -rf vendor/oneplus/oscar
+git clone https://github.com/phhgsi/vendor_oneplus_oscar.git -b fourteen vendor/oneplus/oscar
+rm -rf vendor/oneplus/sm6375-common
+git clone https://github.com/phhgsi/vendor_oneplus_sm6375-common.git -b fourteen vendor/oneplus/sm6375-common
+rm -rf hardware/oplus
+git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
+git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 #rm -rf vendor/oneplus/camera
-rm -rf vendor/oplus/camera
-#Clone trees local manifest
-git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
+#rm -rf vendor/oplus/camera
 #rm -rf frameworks/base
 #rm -rf frameworks/av
 #rm -rf frameworks/native
