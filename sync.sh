@@ -26,7 +26,7 @@ rm -rf frameworks/native
 git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
 git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
-git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git vendor/oplus/camera
+git clone https://gitlab.com/rk134/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
 chmod u+x scripts/build.sh
