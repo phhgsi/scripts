@@ -20,12 +20,12 @@ git clone https://github.com/phhgsi/vendor_derp.git vendor/derp
 #Clone trees local manifest
 #git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b main .repo/local_manifests
 #repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
-rm -rf frameworks/base
-rm -rf frameworks/av
-rm -rf frameworks/native
-git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
-git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
-git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
+#rm -rf frameworks/base
+#rm -rf frameworks/av
+#rm -rf frameworks/native
+#git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
+#git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
+#git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
 git clone https://gitlab.com/rk134/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
