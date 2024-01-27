@@ -13,8 +13,8 @@ rm -rf .repo/local_manifests
 #rm -rf device/oneplus/sm6375-common
 rm -rf vendor/derp
 git clone https://github.com/phhgsi/vendor_derp.git vendor/derp
-#rm -rf kernel/oneplus/sm6375
-#git clone https://github.com/phhgsi/android_kernel_oneplus_sm6375.git kernel/oneplus/sm6375
+rm -rf kernel/oneplus/sm6375
+git clone https://github.com/phhgsi/android_kernel_oneplus_sm6375.git kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/camera
 #rm -rf vendor/oplus/camera
 #Clone trees local manifest
