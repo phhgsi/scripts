@@ -23,7 +23,7 @@ rm -rf .repo/local_manifests
 #git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 rm -rf vendor/oplus/camera
-git clone https://gitlab.com/yograjsingh-cmd/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
+git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git -b derp vendor/oplus/camera
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
 #git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
