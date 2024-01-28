@@ -22,11 +22,8 @@ git clone https://github.com/phhgsi/device_oneplus_sm6375-common.git device/onep
 #rm -rf hardware/oplus
 #git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
-#rm -rf vendor/oneplus/camera
-#rm -rf vendor/oplus/camera
-#rm -rf frameworks/base
-#rm -rf frameworks/av
-#rm -rf frameworks/native
+rm -rf vendor/oplus/camera
+git clone https://gitlab.com/yograjsingh-cmd/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
 #git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
