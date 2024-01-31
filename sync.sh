@@ -24,7 +24,7 @@ echo
 #rm -rf vendor/oplus/cam
 rm -rf vendor/oplus/camera
 git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git vendor/oplus/camera
-#rm -rf vendor/gcam
+rm -rf vendor/oplus/gcam
 #git clone https://www.opencode.net/romdumprx/gcam.git vendor/oplus/gcam
 rm -rf vendor/oplus/lib
 git clone https://github.com/ajaysinghsati/android_vendor_oplus_lib.git vendor/oplus/lib
