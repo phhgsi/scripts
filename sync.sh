@@ -23,7 +23,7 @@ echo
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 #rm -rf vendor/oplus/cam
 rm -rf vendor/oplus/camera
-git clone https://www.opencode.net/romdumprx/procam.git vendor/oplus/camera
+git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 #rm -rf vendor/gcam
 #git clone https://www.opencode.net/romdumprx/gcam.git vendor/oplus/gcam
 rm -rf vendor/oplus/lib
