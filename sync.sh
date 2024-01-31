@@ -21,12 +21,12 @@ echo
 #git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
 
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
-rm -rf vendor/oplus/cam
+#rm -rf vendor/oplus/cam
 rm -rf vendor/oplus/camera
 git clone https://www.opencode.net/romdumprx/procam.git vendor/oplus/camera
-rm -rf vendor/gcam
-git clone https://www.opencode.net/romdumprx/gcam.git -b udc vendor/oplus/gcam
-git clone https://github.com/ajaysinghsati/android_vendor_oplus_camera.git vendor/oplus/lib
+#rm -rf vendor/gcam
+#git clone https://www.opencode.net/romdumprx/gcam.git -b udc vendor/oplus/gcam
+#git clone https://github.com/ajaysinghsati/android_vendor_oplus_camera.git vendor/oplus/lib
 
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
