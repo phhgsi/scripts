@@ -27,7 +27,7 @@ git clone https://gitlab.com/pjgowtham/proprietary_vendor_oplus_camera.git vendo
 #rm -rf vendor/oplus/gcam
 #git clone https://www.opencode.net/romdumprx/gcam.git vendor/oplus/gcam
 rm -rf vendor/oplus/lib
-git clone https://github.com/ajaysinghsati/android_vendor_oplus_lib.git vendor/oplus/lib
+git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
