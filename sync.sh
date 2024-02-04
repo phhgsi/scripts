@@ -22,7 +22,7 @@ git clone https://github.com/phhgsi/vendor_oneplus_oscar.git -b fourteen vendor/
 # rm -rf 
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 rm -rf vendor/oplus/lib
-git clone https://github.com/phhgsi/android_vendor_oplus_lib.git vendor/oplus/lib
+git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
 git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
 
