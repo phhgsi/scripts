@@ -24,7 +24,7 @@ git clone https://github.com/phhgsi/vendor_oneplus_oscar.git -b fourteen vendor/
 rm -rf vendor/oplus/lib
 git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
-git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
+git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-20 vendor/oplus/camera
 
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
