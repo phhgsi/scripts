@@ -10,7 +10,7 @@ echo
 rm -rf device/oneplus/oscar
 git clone https://github.com/derpfestoscar/device_oneplus_oscar.git device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
-git clone https://github.com/derpfestoscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
+git clone https://github.com/phhgsi/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
 rm -rf kernel/oneplus/sm6375
 git clone https://github.com/derpfestoscar/android_kernel_oneplus_sm6375.git -b holi-12 kernel/oneplus/sm6375
 rm -rf vendor/oneplus/oscar
