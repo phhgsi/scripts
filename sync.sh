@@ -14,9 +14,9 @@ git clone https://github.com/derpfestoscar/device_oneplus_sm6375-common.git devi
 rm -rf kernel/oneplus/sm6375
 git clone https://github.com/derpfestoscar/android_kernel_oneplus_sm6375.git -b holi-12 kernel/oneplus/sm6375
 rm -rf vendor/oneplus/oscar
-git clone https://github.com/derpfestoscar/vendor_oneplus_oscar.git -b fourteen vendor/oneplus/oscar
+git clone https://github.com/phhgsi/vendor_oneplus_oscar.git -b fourteen vendor/oneplus/oscar
 rm -rf vendor/oneplus/sm6375-common
-git clone https://github.com/derpfestoscar/vendor_oneplus_sm6375-common.git -b fourteen vendor/oneplus/sm6375-common
+git clone https://github.com/phhgsi/vendor_oneplus_sm6375-common.git -b fourteen vendor/oneplus/sm6375-common
 rm -rf hardware/oplus
 git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
 #rm -rf 
