@@ -25,6 +25,8 @@ rm -rf vendor/oplus/lib
 git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
 git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
+rm -rf prebuilts/derp
+git clone https://github.com/derpfestoscar/prebuilts_derp.git prebuilts/derp
 
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
