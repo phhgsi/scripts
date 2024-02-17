@@ -1,11 +1,11 @@
 #!/bin/bash
 #envsetup
 source build/envsetup.sh
-make clean 
+make clean
 # lunch command 
-lunch afterlife_oscar-user
+lunch derp_oscar-user
 export TZ=Asia/Dhaka
 #make command
-m afterlife -j$
+mka derp
 # Check build status and display animation
 
