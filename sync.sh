@@ -8,9 +8,9 @@ echo "            ajaysinghsati             "
 echo "--------------------------------------"
 echo
 rm -rf device/oneplus/oscar
-git clone https://github.com/afterlifeoscar/device_oneplus_oscar.git device/oneplus/oscar
+git clone https://github.com/derpfestoscar/device_oneplus_oscar.git device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
-git clone https://github.com/afterlifeoscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
+git clone https://github.com/phhgsi/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
 rm -rf kernel/oneplus/sm6375
 git clone https://github.com/beet-stuffs/android_kernel_oneplus_sm8350.git -b holi-16 kernel/oneplus/sm6375
 rm -rf vendor/oneplus/oscar
@@ -25,8 +25,8 @@ rm -rf vendor/oplus/lib
 git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
 git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
-#rm -rf prebuilts/derp
-#git clone https://github.com/derpfestoscar/prebuilts_derp.git prebuilts/derp
+rm -rf prebuilts/derp
+git clone https://github.com/derpfestoscar/prebuilts_derp.git prebuilts/derp
 
 #git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
 #git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
