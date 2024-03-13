@@ -1,0 +1,10 @@
+{
+  "username": "ajay24ce008@satiengg.in",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwLCJ0ZWFtSWQiOjE0LCJpc0FwaUtleSI6dHJ1ZSwiaWF0IjoxNzA5MzY1MDkyfQ.y9or0SHSzMwGxuINdy6KcTZvwQli5EUIPg5rETHE75o",
+    "User-Agent": "Crave"
+  },
+  "projects": [],
+  "server": "https://foss.crave.io/api"
+}
