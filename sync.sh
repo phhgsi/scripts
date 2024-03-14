@@ -24,7 +24,7 @@ git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi
 rm -rf vendor/oplus/lib
 git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
-git clone https://gitlab.com/romdump/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
+git clone https://gitlab.com/pjgowtham/proprietary_vendor_oplus_camera.git -b lineage-21-op12 vendor/oplus/camera
 rm -rf prebuilts/derp
 git clone https://github.com/derpfestoscar/prebuilts_derp.git prebuilts/derp
 
