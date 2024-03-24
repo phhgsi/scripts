@@ -8,7 +8,7 @@ echo "            ajaysinghsati             "
 echo "--------------------------------------"
 echo
 rm -rf device/oneplus/oscar
-git clone https://github.com/phhhsi/device_oneplus_oscar.git -b superior device/oneplus/oscar
+git clone https://github.com/phhgsi/device_oneplus_oscar.git -b superior device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
 git clone https://github.com/phhgsi/device_oneplus_sm6375-common.git -b superior device/oneplus/sm6375-common
 rm -rf kernel/oneplus/sm6375
