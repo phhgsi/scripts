@@ -22,16 +22,11 @@ git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi
 rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 rm -rf vendor/oplus/lib
-#git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
+git clone https://github.com/phhgsi/oplus_lib.git vendor/oplus/lib
 rm -rf vendor/oplus/camera
-#git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git -b lineage-21-op12 vendor/oplus/camera
+git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git -b lineage-21-op12 vendor/oplus/camera
 rm -rf prebuilts/derp
 git clone https://github.com/derpfestoscar/prebuilts_derp.git prebuilts/derp
-
-#git clone https://github.com/DerpFest-AOSP/frameworks_base.git frameworks/base
-#git clone https://github.com/DerpFest-AOSP/frameworks_av.git frameworks/av
-#git clone https://github.com/DerpFest-AOSP/frameworks_native.git frameworks/native
-#git clone https://gitlab.com/rk134/proprietary_vendor_oplus_camera.git vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
 chmod u+x scripts/build.sh
