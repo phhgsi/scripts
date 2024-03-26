@@ -27,5 +27,5 @@ rm -rf vendor/oplus/camera
 git clone https://gitlab.com/ajay24ce008/proprietary_vendor_oplus_camera.git -b lineage-21 vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
 # Run build script 
-chmod u+x scripts/build.sh
-./scripts/build.sh
+chmod u+x scripts/chiper/build.sh
+./scripts/chiper/build.sh
