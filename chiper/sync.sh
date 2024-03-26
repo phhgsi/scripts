@@ -17,8 +17,8 @@ rm -rf vendor/oneplus/oscar
 git clone https://github.com/phhgsi/vendor_oneplus_oscar.git -b fourteen vendor/oneplus/oscar
 rm -rf vendor/oneplus/sm6375-common
 git clone https://github.com/phhgsi/vendor_oneplus_sm6375-common.git -b fourteen vendor/oneplus/sm6375-common
-rm -rf hardware/oplus
-git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
+#rm -rf hardware/oplus
+#git clone https://github.com/PixelOS-Devices/hardware_oplus.git -b fourteen-holi hardware/oplus
 rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 rm -rf vendor/oplus/lib
