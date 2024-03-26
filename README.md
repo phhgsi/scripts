@@ -9,6 +9,9 @@ crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scri
 crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scripts.git && chmod u+x scripts/superior.sh && ./scripts/superior.sh "
 ```
 ```bash
+crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scripts.git && chmod u+x scripts/chiper.sh && ./scripts/chiper.sh "
+```
+```bash
 crave run --no-patch "rm -rf scripts && git clone https://github.com/phhgsi/scripts.git && chmod u+x scripts/sync.sh && ./scripts/sync.sh "
 ```
 ```bash
