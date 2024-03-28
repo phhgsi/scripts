@@ -1,10 +1,4 @@
 #!/bin/bash
-
-rm -rf .repo
-
-# Initialize local repository
-repo init -u https://github.com/Evolution-X/manifest -b uqpr2
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 rm -rf device/oneplus/oscar
 git clone https://github.com/phhhsi/device_oneplus_oscar.git -b evo device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
