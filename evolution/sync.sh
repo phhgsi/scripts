@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf .repo
 # Initialize local repository
 repo init -u https://github.com/Evolution-X/manifest -b u
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
