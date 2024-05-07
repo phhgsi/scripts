@@ -2,9 +2,9 @@
 #envsetup
 source build/envsetup.sh
 # lunch command 
-lunch evolution_oscar-userdebug
+lunch derp_oscar-user
 export TZ=Asia/Dhaka
 #make command
-m evolution
+mka derp
 # Check build status and display animation
 
