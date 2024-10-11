@@ -1,8 +1,8 @@
-rm -rf .repo/local_manifests/
+rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers  prebuilts/clang/host/linux-x86/clang-r450784d
 #repo init rom
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 #local manifest
-git clone https://raw.githubusercontent.com/phhgsi/local_manifests/refs/heads/derp/addison_manifest.xml -b derp .repo/local_manifests &&
+git clone  https://github.com/phhgsi/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 # Sync 
 repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 #build
