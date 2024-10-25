@@ -14,5 +14,5 @@ export BUILD_BROKEN_MISSING_REQUIRED_MODULES=1
 export TZ=Asia/india
 # Choose a target device 
 source build/envsetup.sh
-lunch lineage_avalon-userdebug && make installclean && mka bacon
+lunch lineage_avalon-user && make installclean && mka bacon
 
