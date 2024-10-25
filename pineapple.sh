@@ -1,6 +1,4 @@
 rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers
-#repo init rom
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 #local manifest
 git clone  https://github.com/OnePlus-Nord4-devs/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 # Sync 
