@@ -1,4 +1,4 @@
-rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers hardware/qcom-caf/sm8650/audio/pal vendor/qcom/opensource/dataservices hardware/qcom-caf/wlan 
+rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers hardware/qcom-caf/sm8650/audio/pal vendor/qcom/opensource/dataservices hardware/qcom-caf/wlan hardware/qcom-caf/sm8650/audio/primary-hal
 #local manifest
 git clone  https://github.com/OnePlus-Nord4-devs/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 rm -rf device/oneplus/avalon-prebuilt
