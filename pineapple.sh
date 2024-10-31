@@ -1,11 +1,8 @@
-rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers
+rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers hardware/qcom-caf/sm8650/audio/pal vendor/qcom/opensource/dataservices hardware/qcom-caf/wlan 
 #local manifest
 git clone  https://github.com/OnePlus-Nord4-devs/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 rm -rf device/oneplus/avalon-prebuilt
 git clone https://www.opencode.net/romdumprx/Prebuilt_kernel_pineapple.git device/oneplus/avalon-prebuilt
-rm -rf hardware/qcom-caf/sm8650/audio/pal
-rm -rf vendor/qcom/opensource/dataservices
-rm -rf hardware/qcom-caf/wlan
 # Sync 
 repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 #build
