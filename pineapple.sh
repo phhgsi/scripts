@@ -3,6 +3,7 @@ rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers hardware/qcom
 git clone  https://github.com/OnePlus-Nord4-devs/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 rm -rf device/oneplus/avalon-prebuilt
 git clone https://www.opencode.net/romdumprx/Prebuilt_kernel_pineapple.git device/oneplus/avalon-prebuilt
+git clone https://github.com/OnePlus-Nord4-devs/android_kernel_oneplus_sm7675-modules.git kernel/module/sm8650-common
 # Sync 
 repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 #build
