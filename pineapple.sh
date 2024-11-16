@@ -7,6 +7,7 @@ git clone https://www.opencode.net/romdumprx/Prebuilt_kernel_pineapple.git devic
 repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 #build
 /opt/crave/resync.sh
+rm -rf hardware/oplus/KeyHandler
 source build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
