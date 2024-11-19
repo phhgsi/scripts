@@ -2,7 +2,7 @@ rm -rf .repo/local_manifests/ hardware/google/pixel/kernel_headers kernel/oneplu
 #local manifest
 git clone  https://github.com/OnePlus-Nord4-devs/local_manifests.git --depth 1 -b derp .repo/local_manifests &&
 rm -rf device/oneplus/avalon-prebuilt
-git clone https://github.com/holoction-audi/device_oneplus_audi-prebuilt.git device/oneplus/avalon-prebuilt
+git clone https://github.com/yaap/device_oneplus_waffle-kernel.git device/oneplus/avalon-prebuilt
 # Sync 
 repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 #build
@@ -19,4 +19,3 @@ export TZ=Asia/india
 # Choose a target device 
 source build/envsetup.sh
 lunch lineage_avalon-ap2a-userdebug && make clean && mka bacon
-
