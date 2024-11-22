@@ -15,4 +15,4 @@ export BUILD_BROKEN_MISSING_REQUIRED_MODULES=1
 export TZ=Asia/india
 # Choose a target device 
 source build/envsetup.sh
-lunch yaap_avalon-user && make clean && m yaap
+lunch yaap_avalon-userdebug && make clean && m yaap
